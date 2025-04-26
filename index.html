@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONDA DURA</title>
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #bd65e1, #6044bc);
+      color: #f3f3f0;
+      text-align: center;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 60px 20px;
+      background-color: #7a5de1;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      transition: background-color 0.3s ease;
+    }
+
+    header:hover {
+      background-color: #6949d4;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #fffbea;
+      letter-spacing: 2px;
+    }
+
+    img.logo {
+      width: 50%;
+      border-radius: 40px;
+      margin-top: 40px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
+
+    img.logo:hover {
+      transform: scale(1.05);
+    }
+
+    .descricao,
+    .secao {
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 40px auto;
+      padding: 30px;
+      max-width: 90%;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+
+    .descricao:hover,
+    .secao:hover {
+      transform: translateY(-5px);
+    }
+
+    .secao img {
+      flex: 1 1 35%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 12px;
+      margin: 15px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .secao img:hover {
+      transform: scale(1.03);
+    }
+
+    .secao-normal {
+      flex-direction: row;
+    }
+
+    .secao-invertida {
+      flex-direction: row-reverse;
+    }
+
+    .texto {
+      flex: 1 1 55%;
+      max-width: 500px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .texto h2 {
+      color: #ffd84d;
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .texto p,
+    .descricao p {
+      color: #f3f3f0;
+      font-size: 1.05rem;
+    }
+
+    .texto-missao {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 25px;
+      background-color: #0a0a0a;
+      color: #aaa;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 768px) {
+      .texto {
+        text-align: center;
+      }
+
+      .secao {
+        flex-direction: column !important;
+      }
+
+      img.logo {
+        width: 60%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1></h1>
+    <img src="c:\Users\gabri\Downloads\ondadura.png.png" alt="Logo ONDA DURA" class="logo" />
+  </header>
+
+  <div class="descricao">
+    <p>
+      Somos uma igreja bíblica, acolhedora e extraordinária. Vivemos para que em cada família haja pelo menos um
+      discípulo de Cristo que teve a vida transformada por meio da nossa comunidade.
+    </p>
+  </div>
+
+  <div class="secao secao-invertida">
+    <img src="hope_casal.jpg" alt="Imagem da Missão">
+    <div class="texto">
+      <h2><strong>Missão HOPE</strong></h2>
+      <p class="texto-missao">
+        Somos um projeto dedicado a apoiar famílias em situação de vulnerabilidade.<br><br>
+        Através de ações continuas como mercado solidário, acompanhamento familiar, grupos de apoio, empregabilidade e
+        apoio psicológico.<br><br>
+        Oferecemos também suporte completo para que as famílias possam se reerguer, conquistando a autonomia, e no
+        futuro, ajudar outras pessoas!
+      </p>
+    </div>
+  </div>
+
+  <div class="secao secao-normal">
+    <img src="c:\Users\gabri\Downloads\WhatsApp-Image-2025-04-07-at-19.37.58.jpeg" alt="Vivendo Igreja">
+    <div class="texto">
+      <h2>Como Vivemos Igreja</h2>
+      <p>
+        <strong>Culto ONDA DURA:</strong> Cultuamos juntos a Deus e ouvimos a Sua Palavra.<br><br>
+        <strong>Grupos Pequenos:</strong> Comunhão nas casas, estudo bíblico e refeições.<br><br>
+        <strong>Discipulado Um a Um:</strong> Crescimento espiritual com alguém mais experiente na fé.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 ONDA DURA - Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
